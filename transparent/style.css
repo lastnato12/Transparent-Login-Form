@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html,body{
+    margin: 0;
+}
+
+.main-container{
+    background-image: url(unsplash.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    background-color: hsla(201, 100%, 6%, 0.6);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-field label{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.input-field input{
+    background-color: hsla(201, 100%, 91%, 0.3);
+    padding: .1em .25em;
+    font-size: 1.5em;
+    border: 1px solid hsl(201, 100%, 6%);
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+.input-field input:focus{
+    border: 1px solid hsl(201, 100%, 50%);
+}
+.btn{
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 5px; 
+    background-color: hsla(201, 100%, 50%, 0.1);
+    border: 1px solid hsl(201, 100%, 50%);
+    outline: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsla(201, 100%, 50%, 0.3);
+
+}
+
+
+.btn:focus{
+    background-color: hsla(201, 100%, 50%, 0.5);
+
+}
